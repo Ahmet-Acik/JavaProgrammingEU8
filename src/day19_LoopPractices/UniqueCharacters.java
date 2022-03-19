@@ -1,5 +1,7 @@
 package day19_LoopPractices;
 
+import java.util.Scanner;
+
 public class UniqueCharacters {
 
     public static void main(String[] args) {
@@ -50,3 +52,4 @@ public class UniqueCharacters {
                         output:
                                 bdf
  */
+
