@@ -25,8 +25,7 @@ public class ReturnMethodsPractice3 {
     }
 
 
-    //                              "aaa"      'a'
-    public static int frequency(String str, char ch){
+      public static int frequency(String str, char ch){
 
         int count = 0;
 
