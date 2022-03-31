@@ -1,6 +1,5 @@
 package day_34_GarbagaCollection_AccessModifiers;
 
-
 import day30_CustomClass.Dog;
 import day31_Constructors.Student;
 import day32_Constructurs.Car;
@@ -17,7 +16,7 @@ public class GarbageCollection {
         System.out.println( str.toUpperCase() );
          */
 
-        String str = "Wooden Spoon"; // after line 13, "Wooden Spoon" will be eligible for garbage collection
+        String str = "Wooden Spoon"; // after the next line , "Wooden Spoon" will be eligible for garbage collection
         str = null;
 
         System.out.println( str );
@@ -66,8 +65,11 @@ public class GarbageCollection {
         Student student2 = student1;
         student2.name = "Ahmet";
 
+        Student student3 = student1;
+
         System.out.println(student1);
         System.out.println(student2);
+        System.out.println(student3);
 
         System.out.println("------------------------------");
 
