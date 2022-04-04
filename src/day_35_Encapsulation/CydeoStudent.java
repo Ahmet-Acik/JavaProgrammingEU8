@@ -21,6 +21,7 @@ public class CydeoStudent {
         this.fieldOfStudy = fieldOfStudy;
     }
 
+
     static{
         schoolName = "CYDEO";
         programmingLanguage = "JAVA";
