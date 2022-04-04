@@ -10,7 +10,7 @@ public class AccessModifiers_Test {
 
         AccessModifiers.method1();
         AccessModifiers.method2();
-    //    AccessModifiers.method3(); // private is not visible outside the class
+        // AccessModifiers.method3(); // private is not visible outside the class
 
 
     }
