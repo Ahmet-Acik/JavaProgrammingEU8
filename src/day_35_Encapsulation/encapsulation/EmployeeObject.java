@@ -4,7 +4,7 @@ public class EmployeeObject {
 
     public static void main(String[] args) {
 
-        Employee employee1 = new Employee("Ahmet", 'M', 30, 120000);
+        Employee employee1 = new Employee("Ahmet", 'M', 16, 120000);
 
         employee1.setAge(32);
 
