@@ -24,8 +24,8 @@ public class StringMethod2 {
         System.out.println("sentence2 = " + sentence2);
 
 
-        String s = "Dog Dog Dog Dog Dog Dog";
-        s = s.replace("Dog", "Cat"); //"Cat ...."
+        String s = "Dogs Dogs Dogs Dogs Dogs Dogs";
+        s = s.replace("Dogs", "Cats"); //"Cats ...."
 
         System.out.println("s = " + s);
 

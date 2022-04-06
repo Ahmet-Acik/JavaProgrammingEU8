@@ -1,9 +1,9 @@
 package day37_Inheritance;
 
-public class Parrot extends Animal{
+public class Parrots extends AnimalS {
 
 
-    public Parrot(String name, String breed, char gender, int age, String size, String color) {
+    public Parrots(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
     }
 

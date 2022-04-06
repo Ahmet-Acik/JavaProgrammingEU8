@@ -34,7 +34,7 @@ public class Animal  {
     }
 
     public String toString() {
-        return "Animal{" +
+        return "AnimalS{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
@@ -47,7 +47,7 @@ public class Animal  {
 
 }
 /*
-Animal:
+AnimalS:
 		name, breed, gender, size, age, color
 		setInfo(), eat(), drink(), move(), sleep(), toString()
  */

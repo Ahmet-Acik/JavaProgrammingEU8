@@ -1,6 +1,6 @@
 package day37_Inheritance;
 
-public class Animal {
+public class AnimalS {
 
     public String name, breed;
     public char gender;
@@ -8,7 +8,7 @@ public class Animal {
     public String size;
     public String color;
 
-    public Animal(String name, String breed, char gender, int age, String size, String color) {
+    public AnimalS(String name, String breed, char gender, int age, String size, String color) {
         this.name = name;
         this.breed = breed;
         this.gender = gender;
@@ -35,7 +35,7 @@ public class Animal {
     }
 
     public String toString() {
-        return "Animal{" +
+        return "AnimalS{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
