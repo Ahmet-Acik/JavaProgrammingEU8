@@ -1,4 +1,4 @@
-package day37_Inheritance.Animal;
+package day37_Inheritance.animal;
 
 public class Parrot extends Animal {
 
